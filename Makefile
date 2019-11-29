@@ -11,7 +11,7 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=v2ray
 PKG_VERSION:=4.21.3
 PKG_RELEASE:=1
-PKG_BUILD_DIR:=$(BUILD_DIR)/v2ray-core-$(PKG_VERSION)													 
+PKG_BUILD_DIR:=$(BUILD_DIR)/v2ray-core-$(PKG_VERSION)
 
 PKG_SOURCE:=$(PKG_NAME)-core-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/v2ray/v2ray-core/tar.gz/v$(PKG_VERSION)?
