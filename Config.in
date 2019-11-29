@@ -1,5 +1,5 @@
 menu "V2Ray Configuration"
-	depends on PACKAGE_v2ray-core
+	depends on PACKAGE_v2ray
 
 choice
 	prompt "JSON Config Support"
